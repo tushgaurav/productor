@@ -4,20 +4,21 @@
 // --------------------------------------------
 $color: (
 	typography: (
-		1: #232031,
-		2: #202530,
-		3: #212123,
+		1: #030099,
+		// text
+		2: #131212,
+		3: #ffffff,
 	),
 	bg: (
-		1: #e9e5ff,
+		1: #d9d3fd,
 		2: #e9e5ff,
 		3: #90b5ff,
 		4: #b3caff,
 	),
 	primary: (
-		1: #0270d7,
-		2: #0f8afd,
-		3: #0256a4,
+		1: #9fdaff,
+		2: #128dff,
+		3: #44a3fb,
 	),
 );
 
@@ -50,7 +51,8 @@ $font__family: (
 	// font-family(heading)
 	code: 'Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace',
 	// font-family(code)
-	pre: '"Courier 10 Pitch", Courier, monospace' // font-family(pre),,,,,,,,,,
+	pre: '"Courier 10 Pitch", Courier, monospace'
+		// font-family(pre),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 );
 
 $font__sizes: (
@@ -115,7 +117,8 @@ $font__scale: (
 		// Text small (e.g. faq's)
 		7: map-get($font__sizes, eta),
 		// Text smaller (e.g. pricing, testimonials)
-		8: map-get($font__sizes, theta) // Footer area,,,,,,,,,,
+		8: map-get($font__sizes, theta)
+			// Footer area,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 	),
 	mobile: (
 		// i.e. $breakpoint__xs + $breakpoint__s (up to 600)
@@ -133,7 +136,8 @@ $font__scale: (
 		// Text small (e.g. faq's)
 		7: map-get($font__sizes, eta),
 		// Text smaller (e.g. pricing, testimonials)
-		8: map-get($font__sizes, theta) // Footer area,,,,,,,,,,
+		8: map-get($font__sizes, theta)
+			// Footer area,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 	),
 );
 
@@ -144,7 +148,7 @@ $font__weight: (
 	// font__weight(medium)
 	semibold: 600,
 	// font__weight(semi-bold)
-	bold: 700 // font__weight(bold),,,,,,,,,,
+	bold: 700 // font__weight(bold),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 );
 
 // --------------------------------------------

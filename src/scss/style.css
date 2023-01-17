@@ -360,7 +360,7 @@ html {
 }
 
 body {
-  color: #202530;
+  color: #131212;
   font-size: 1rem;
 }
 
@@ -373,7 +373,7 @@ textarea {
 }
 
 a {
-  color: #202530;
+  color: #131212;
   text-decoration: underline;
 }
 a:hover, a:active {
@@ -384,7 +384,7 @@ a:hover, a:active {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   clear: both;
-  color: #232031;
+  color: #030099;
   font-weight: 600;
 }
 
@@ -527,7 +527,7 @@ dfn, cite, em, i {
 }
 
 blockquote {
-  color: #212123;
+  color: #ffffff;
   font-style: italic;
   margin-top: 24px;
   margin-bottom: 24px;
@@ -544,7 +544,7 @@ blockquote p {
 }
 
 address {
-  color: #202530;
+  color: #131212;
   border-width: 1px 0;
   border-style: solid;
   border-color: #90b5ff;
@@ -670,7 +670,7 @@ label {
   text-decoration: none;
   text-transform: uppercase;
   background-color: #e9e5ff;
-  color: #0270d7 !important;
+  color: #9fdaff !important;
   border: none;
   height: auto;
   left: 8px;
@@ -698,7 +698,7 @@ label {
 }
 
 .text-primary {
-  color: #0270d7;
+  color: #9fdaff;
 }
 
 .has-top-divider {
@@ -1106,32 +1106,32 @@ label {
 --------------------------------------------------------------*/
 .input,
 .textarea {
-  background-color: #232031;
+  background-color: #030099;
   border-width: 1px;
   border-style: solid;
   border-color: #90b5ff;
   border-radius: 2px;
-  color: #202530;
+  color: #131212;
   max-width: 100%;
   width: 100%;
 }
 .input::-moz-placeholder, .textarea::-moz-placeholder {
-  color: #212123;
+  color: #ffffff;
 }
 .input:-ms-input-placeholder, .textarea:-ms-input-placeholder {
-  color: #212123;
+  color: #ffffff;
 }
 .input::placeholder,
 .textarea::placeholder {
-  color: #212123;
+  color: #ffffff;
 }
 .input::-ms-input-placeholder,
 .textarea::-ms-input-placeholder {
-  color: #212123;
+  color: #ffffff;
 }
 .input:-ms-input-placeholder,
 .textarea:-ms-input-placeholder {
-  color: #212123;
+  color: #ffffff;
 }
 .input:hover,
 .textarea:hover {
@@ -1207,7 +1207,7 @@ label {
   text-decoration: none !important;
   text-transform: uppercase;
   background-color: #90b5ff;
-  color: #232031 !important;
+  color: #030099 !important;
   border: none;
   border-radius: 2px;
   cursor: pointer;
@@ -1233,12 +1233,12 @@ label {
 }
 
 .button-primary {
-  background: #097dea;
-  background: linear-gradient(65deg, #0270d7 0, #0f8afd 100%);
+  background: #59b4ff;
+  background: linear-gradient(65deg, #9fdaff 0, #128dff 100%);
 }
 .button-primary:hover {
-  background: #0982f4;
-  background: linear-gradient(65deg, #0275e1 0, #198ffd 100%);
+  background: #63b9ff;
+  background: linear-gradient(65deg, #a9deff 0, #1c92ff 100%);
 }
 
 .button-block {
@@ -1281,7 +1281,7 @@ label {
   line-height: 24px;
   letter-spacing: -0.1px;
   font-weight: 600;
-  color: #202530;
+  color: #131212;
   text-transform: uppercase;
   text-decoration: none;
   line-height: 16px;
@@ -1395,7 +1395,7 @@ label {
   transform: rotateZ(45deg);
 }
 .hero-figure-box-01::before {
-  background: linear-gradient(to left, #e9e5ff 0%, rgba(233, 229, 255, 0) 60%);
+  background: linear-gradient(to left, #d9d3fd 0%, rgba(217, 211, 253, 0) 60%);
   transform: rotateZ(45deg) scale(1.5);
 }
 
@@ -1404,11 +1404,11 @@ label {
   top: 64.1%;
   width: 37.87%;
   height: 50.5%;
-  background: linear-gradient(to left top, #0270d7, rgba(2, 112, 215, 0));
+  background: linear-gradient(to left top, #9fdaff, rgba(159, 218, 255, 0));
   transform: rotateZ(-45deg);
 }
 .hero-figure-box-02::before {
-  background: linear-gradient(to top, #e9e5ff 0%, rgba(233, 229, 255, 0) 60%);
+  background: linear-gradient(to top, #d9d3fd 0%, rgba(217, 211, 253, 0) 60%);
   transform: rotateZ(-45deg) scale(1.5);
 }
 
@@ -1420,7 +1420,7 @@ label {
   background: linear-gradient(to left top, #00BFFB, rgba(0, 191, 251, 0));
 }
 .hero-figure-box-03::before {
-  background: linear-gradient(to left, #e9e5ff 0%, rgba(233, 229, 255, 0) 60%);
+  background: linear-gradient(to left, #d9d3fd 0%, rgba(217, 211, 253, 0) 60%);
   transform: rotateZ(45deg) scale(1.5);
 }
 
@@ -1429,11 +1429,11 @@ label {
   top: -8%;
   width: 45.45%;
   height: 60.6%;
-  background: linear-gradient(to left top, #0270d7, rgba(2, 112, 215, 0));
+  background: linear-gradient(to left top, #9fdaff, rgba(159, 218, 255, 0));
   transform: rotateZ(-135deg);
 }
 .hero-figure-box-04::before {
-  background: linear-gradient(to top, rgba(35, 32, 49, 0.24) 0%, rgba(35, 32, 49, 0) 60%);
+  background: linear-gradient(to top, rgba(3, 0, 153, 0.24) 0%, rgba(3, 0, 153, 0) 60%);
   transform: rotateZ(-45deg) scale(1.5);
 }
 
@@ -1473,11 +1473,11 @@ label {
   top: 81.6%;
   width: 19.51%;
   height: 26.01%;
-  background: #0270d7;
+  background: #9fdaff;
   transform: rotateZ(-22deg);
 }
 .hero-figure-box-08::before {
-  background: linear-gradient(to left, rgba(35, 32, 49, 0) 0%, rgba(35, 32, 49, 0.48) 100%);
+  background: linear-gradient(to left, rgba(3, 0, 153, 0) 0%, rgba(3, 0, 153, 0.48) 100%);
   transform: rotateZ(45deg) scale(1.5);
 }
 
@@ -1490,7 +1490,7 @@ label {
   transform: rotateZ(-52deg);
 }
 .hero-figure-box-09::before {
-  background: linear-gradient(to left, rgba(35, 32, 49, 0) 0%, rgba(35, 32, 49, 0.64) 100%);
+  background: linear-gradient(to left, rgba(3, 0, 153, 0) 0%, rgba(3, 0, 153, 0.64) 100%);
   transform: rotateZ(45deg) scale(1.5);
 }
 
@@ -1642,7 +1642,7 @@ label {
 .pricing-table-header,
 .pricing-table-features-title,
 .pricing-table-features li {
-  border-bottom: 1px solid rgba(32, 37, 48, 0.24);
+  border-bottom: 1px solid rgba(19, 18, 18, 0.24);
 }
 
 .pricing-table-inner {
@@ -1664,16 +1664,16 @@ label {
   right: 0;
   bottom: 0;
   left: 0;
-  box-shadow: 0 24px 48px rgba(233, 229, 255, 0.24);
+  box-shadow: 0 24px 48px rgba(217, 211, 253, 0.24);
   mix-blend-mode: multiply;
 }
 
 .pricing-table-price-currency {
-  color: #202530;
+  color: #131212;
 }
 
 .pricing-table-features-title {
-  color: #232031;
+  color: #030099;
   font-weight: 700;
 }
 
@@ -1719,7 +1719,7 @@ label {
 
 .cta-inner {
   position: relative;
-  background: #e9e5ff;
+  background: #d9d3fd;
   overflow: hidden;
 }
 .cta-inner::before {
@@ -1772,7 +1772,7 @@ label {
 .boxed-container {
   max-width: 1440px;
   margin: 0 auto;
-  box-shadow: 0 24px 48px rgba(233, 229, 255, 0.24);
+  box-shadow: 0 24px 48px rgba(217, 211, 253, 0.24);
   mix-blend-mode: multiply;
   mix-blend-mode: normal;
 }
@@ -1802,7 +1802,7 @@ main {
   letter-spacing: 0px;
 }
 .site-footer a {
-  color: #202530;
+  color: #131212;
   text-decoration: none;
 }
 .site-footer a:hover, .site-footer a:active {
